@@ -3,10 +3,12 @@
 A Data-Driven Approach for Diabetes Prediction 
 
 ABSTRACT: 
+
 Diabetes is a chronic illness that has become a significant world health issue, affecting millions of people globally. Early diagnosis is essential for improving treatment outcomes and minimizing complications. This project aims to develop a machine learning model that accurately predicts pre-diabetes in individuals using demographic and health-related variables. To achieve this goal, we built a website using HTML with a user-friendly online questionnaire to diagnose individuals with pre-diabetes. The collected data is stored in a dataset in SQL database and used to train the machine learning model to forecast the disease in Python with Django serving as framework for connecting webpage, database, and machine learning model. The website also includes a statistics page for data collected according to race and gender. The approach is expected to yield effective outcomes for timely prediction and prevention of diabetes.
 
 
 METHODS
+
 Study used NHANES dataset with health-related variables from 2011-2014
 Data pre-processing removed missing values
 Feature engineering reduced dimensionality and encoded categorical variables.
